@@ -22,8 +22,8 @@ In task 1 , implement function of lu, sor and solve are created. For LU method, 
 
 ## Task 2 -- SVD method and image compression
 
-Put here your picture file (flowers.jpg)
-![flowers.jpg](flowers.jpg)
+Put here your picture file 
+
 
 
 How many non zero element in $\Sigma$?
@@ -33,8 +33,9 @@ Put here your lower and better resolution pictures. Explain how you generate
 these pictures from `task2.py`.
 
 What is a sparse matrix?
+A sparse matrix is a matrix which most of the elements are zero and allows special techniques to take advantage to reduce both the storage and work required in solving a linear system. It would like to store and operate on only the non zero entries of the matrix, but such a policy is not necessarily a clear win in either storage or work. In this task, sparse matrix is formed when the first 30 elements of $\Sigma$ is kept and other elements are set to zero. Thus, it will create a lower resolution of pictures when combined with U and V by using dot multiplication as the dimension of $\Sigma$ is converted to (800,1000) which is consider as a large sparse matrix.
 
 
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 11/3/2016
