@@ -44,7 +44,7 @@ Original Image
 
 Lower Resolution Picture $\Sigma_{30}$
 
-![lower_resolution.png](lower_resolution.png)
+![low_resolution.png](low_resolution.png)
 
 
 Better Resolution Picture $\Sigma_{200}$
